@@ -12,7 +12,7 @@ export default function Page() {
   } = useAppContext();
 
   return (
-    <div className="bg-[#FFFFFF] h-screen w-full m-0">
+    <div className="bg-[#FFFFFF] h-[100%] w-full m-0">
       {joined ? <Editorr /> : <Join />}
     </div>
   );
